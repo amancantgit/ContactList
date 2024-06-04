@@ -32,7 +32,7 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0 0 0;
+    padding: 15px 0 0 0;
     border-radius: 10px;
     background: linear-gradient(to right, #44A08D, #093637);
 }
@@ -72,13 +72,13 @@ li{
 }
 #number{
     width: 70%;
-    padding: 4px;
+    padding: 2px;
     padding-left: 8px;
     margin: 0;
 }
 #email{
     width: 70%;
-    padding: 4px;
+    padding: 1px;
     padding-left: 8px;
     margin: -2px 0 0 0;
 }
