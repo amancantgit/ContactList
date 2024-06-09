@@ -1,12 +1,15 @@
 body{
     margin: 0;
+    padding: 0;
+}
+
+#ok{
     height: 99vh;
     width: 99%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 #header{
     display: flex;
     justify-content: space-around;
@@ -17,14 +20,6 @@ body{
 }
 i{
     cursor: pointer;
-}
-
-#header i:nth-child(3){
-    color: rgb(55, 55, 254);
-}
-
-#page-heading{
-    text-align: center;
 }
 
 
@@ -73,7 +68,7 @@ li{
 }
 #number{
     width: 70%;
-    padding: 2px;
+    padding-top: 2px;
     padding-left: 8px;
     margin: 0;
 }
@@ -81,7 +76,7 @@ li{
     width: 70%;
     padding: 1px;
     padding-left: 8px;
-    margin: -2px 0 0 0;
+    margin: 0;
 }
 
 
