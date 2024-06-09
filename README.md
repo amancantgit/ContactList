@@ -3,6 +3,7 @@
 ## Project Description:
 This project is a straightforward contact list application built using Node.js, Express, EJS, and MongoDB. It allows users to create and store contact information, focusing on simplicity and ease of use.
 
+https://amancantgit.github.io/ContactList/
 
 ### `Features`:
 1. Create Contacts: Users can add new contacts to the list, ensuring important contact information is saved for future reference.
