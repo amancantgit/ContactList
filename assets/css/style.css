@@ -18,10 +18,7 @@ body{
     margin: 5px;
     height: 40px;
 }
-i{
-    cursor: pointer;
-}
-
+i{ cursor: pointer; }
 
 /* CONTAINER  */
 #container{
@@ -30,7 +27,7 @@ i{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background: linear-gradient(to right, #44A08D, #093637);
+    background: linear-gradient(to bottom, #ADA996, #EAEAEA);
 }
 
 ul{
@@ -48,7 +45,7 @@ li{
 #img{
     margin-right: 10px;
     font-size: 2.5em;
-    margin-top: -10px;
+    margin-top: -6px;
 }
 
 #detail{ width: 80%; }
@@ -56,19 +53,19 @@ li{
 #name{
     margin: 0;
     width: 70%;
-    padding: 5px;
+    padding: 4px 5px;
     padding-left: 8px;
-    background: linear-gradient(to right, gray, lightgray);
+    background: linear-gradient(to bottom, gray, #a5a6a6);
     color: white;
-    font-size: 1.15rem;
-    border-radius: 1px;
+    font-size: 1.1rem;
+    border-radius: 2px;
 }
 #name:hover{
-    background: linear-gradient(to right, gray, rgb(199, 197, 197));
+    background: linear-gradient(to bottom, gray, rgb(177, 177, 177));
 }
 #number{
     width: 70%;
-    padding-top: 2px;
+    padding: 1px 0;
     padding-left: 8px;
     margin: 0;
 }
@@ -79,7 +76,6 @@ li{
     margin: 0;
 }
 
-
 #delete{
     width: 20px;
     margin: 2px;
@@ -88,8 +84,6 @@ li{
 #delete i{
     color: rgb(159, 9, 9);
 }
-
-
 
 /* FORM  */
 form{
@@ -109,7 +103,7 @@ input{
 button{
     background-color: rgb(31, 31, 31);
     color: white;
-    padding: 4px 10px;
+    padding: 5px 11px;
     border-radius: 50%;
     font-size: 1.2rem;
     margin-left: 6%;

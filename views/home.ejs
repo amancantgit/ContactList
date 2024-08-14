@@ -12,7 +12,7 @@
 <body>
     <div id="ok">
         <div id="header">
-            <i class="fas fa-stream"></i>
+            <i class="fas fa-bars"></i>
             <h1 id="page-heading">Contacts</h1>
             <i class="fas fa-search"></i>
            </div>
@@ -21,7 +21,7 @@
                 <ul>
                     <% for(let i of contact_list) { %>
                         <li class="contact">
-                            <div id="img"><i class="fas fa-user"></i></div>
+                            <div id="img"><i class="fas fa-user" style="font-size: 35px;"></i></div>
                             
                             <div id="detail">
                                 <p id="name"><%= i.name %> </p> 
@@ -42,7 +42,7 @@
             <form action="/create-contact" method="POST">
                 <input type="text" name="name" placeholder="Name" required>
                 <input type="number" name="phone" placeholder="Phone" required>
-                <input type="email" name="email" placeholder="Email (optional)" >
+                <input type="email" name="email" placeholder="Email" >
         
                 <button type="submit">+</button>
             </form>
