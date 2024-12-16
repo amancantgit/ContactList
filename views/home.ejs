@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- // setting title from index js : ('/') -->
+    <title> <%= locals.title %> </title>
+    <link rel="icon" href="../assets/images/call.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="ok">
+        <div id="header">
+            <i class="fas fa-bars"></i>
+            <h1 id="page-heading">Contacts</h1>
+            <i class="fas fa-search"></i>
+           </div>
+        
+            <div id="container">
+                <ul>
+                    <% for(let i of contact_list) { %>
+                        <li class="contact">
+                            <div id="img"><i class="fas fa-user" style="font-size: 35px;"></i></div>
+                            
+                            <div id="detail">
+                                <p id="name"><%= i.name %> </p> 
+                                <p id="number"> <%= i.phone %></p>
+                                <p id="email"> <%= i.email %></p>
+                            </div>
+        
+                            <div id="delete">
+                                <a href="/delete-contact/?id=<%= i._id %>">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </div>
+                        </li>
+                    <% } %>
+                </ul>
+            </div>
+        
+            <form action="/create-contact" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="number" name="phone" placeholder="Phone" required>
+                <input type="email" name="email" placeholder="Email" >
+        
+                <button type="submit">+</button>
+            </form>
+        
+            <script src="/js/script.js"></script>
+    </div>
+</body>
+</html>
