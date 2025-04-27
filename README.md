@@ -4,8 +4,6 @@
 This project is a straightforward contact list application built using Node.js, Express, EJS, and MongoDB. It allows users to create and store contact information, focusing on simplicity and ease of use.
 
 
-[Contacts](https://amancantgit.github.io/ContactList/)
-
 ![Image Description](assets/images/contacts.png)
 
 
